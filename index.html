@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Application 6 Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      line-height: 1.6;
+      padding: 0 20px;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      margin-bottom: 20px;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Demo Video</h1>
+
+  <div class="video-container">
+    <!-- Replace the YouTube link with your own video URL -->
+    <iframe
+      src="https://www.youtube.com/watch?v=_cEx_Gpu-qs"
+      title="Embedded Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p>
+    This application demonstrates a hypothetical roller coaster control system prototype. It focuses on efficiency, safety, and performance, while exploring real time concepts such as tasks, semaphores, mutexes, and more. 
+  </p>
+</body>
+</html>
